@@ -1,0 +1,87 @@
+::selection{
+    color: coral;
+    background: #1a1a1a;
+}
+:root{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #1a1a1a;
+    color: whitesmoke;
+    }
+.navbar{
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+        background: #2e2e2e !important;
+        padding: 10px 0px;
+    }
+    .navbar-dark .navbar-nav .nav-link{
+        color: fff;
+        padding-left: 20px;
+    }
+    .navbar-dark .navbar-nav .nav-link.active,
+    .navbar-dark .navbar-nav .nav-link:hover{
+        color: #1ebba3;
+    }
+  .skill-item  h3{
+        font-size: 12px;
+        padding: 6px;
+    }
+
+.btn{
+    border-radius: 2rem;
+    font-size: 10px;
+    background: black;
+    color: #fff;
+    text-transform: capitalize;
+}
+.btn:hover{
+    color: #1a1a1a;
+    background:#1ebba3 ;
+}
+.btn a{
+    border-radius: 2rem;
+    font-size: 10px;
+    background: black;
+    color: bisque;
+    text-transform: capitalize;
+}
+.btn a:hover{
+    color: #1a1a1a;
+    background:#1ebba3;
+}
+.card{
+    background: rgb(46, 35, 35);
+    border: solid 1px #1ebba3;
+   
+}
+.card-body a{
+    color: whitesmoke;
+    font-size: 12px;
+    text-transform: lowercase;
+    word-spacing: normal;
+}
+.card-body i{
+    color: #1ebba3;
+    font-weight: bold;
+}
+.card-body a:hover{
+    background-color: #1a1a1a;
+    color: #1ebba3;
+}
+.card-body h6{
+    
+    color: #1ebba3;
+    text-transform: uppercase;
+    font-weight: bold;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    text-align: center;
+
+}
