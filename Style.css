@@ -93,5 +93,59 @@ nav .nav-item .nav-link{
     font-weight: bold;
     /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
     text-align: center;
+}
+#contact{
+    
+  font-family: Helvetica;
+  padding-top: 60px;
+  width: 100%;
+  width: 100vw;
+  height: 700px;
+  /* background: #3a6186; fallback for old browsers */
+  /* background: -webkit-linear-gradient(to left, #3a6186 , #89253e); Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to left, #3a6186 , #89253e); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;    
+}
+.contact-section{
+  padding-top: 25px;
+}
+/* .contact-section .col-md-6{
+  width: 75%;
+} */
 
+/* .form-line{
+  border-right: 1px solid #B29999;
+} */
+
+.form-group{
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+  align-items: center;
+    height: 30px;
+}
+
+.submit {
+  background: #31e49f;
+  text-decoration: none;
+  color: #f1f1f1;
+  float: right;
+  border: solid 0.1rem #080808;
+  border-radius: 5px;
+  margin: 1rem;
+}
+
+.submit:hover{
+  color: bisque;
 }
